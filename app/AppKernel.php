@@ -10,7 +10,7 @@ class AppKernel extends Kernel
 		date_default_timezone_set('Europe/Paris');
 		parent::__construct($environment, $debug);
 	}
-	
+
 	public function registerBundles()
 	{
 		$bundles = [
@@ -29,6 +29,7 @@ class AppKernel extends Kernel
 			$bundles[] = new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle();
 			$bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();
 			$bundles[] = new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle();
+			$bundles[] = new Darkkrye\CacheClearToolbar\CacheClearToolbar();
 		}
 
 		return $bundles;

@@ -4,9 +4,48 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "69263a0c2993c5b6c1453549d32ac3ae",
-    "content-hash": "64f0a371ccb42b36badcde0095315764",
+    "hash": "714b4c1a0331d4327586e1315b3fc668",
+    "content-hash": "26074e873251b2a6f452b8b3126f5eca",
     "packages": [
+        {
+            "name": "darkkrye/cache-clear-toolbar",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Darkkrye/CacheClearToolbar.git",
+                "reference": "a51e30f8859b18a8ab8eb8e435814ea8ce9e87de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Darkkrye/CacheClearToolbar/zipball/a51e30f8859b18a8ab8eb8e435814ea8ce9e87de",
+                "reference": "a51e30f8859b18a8ab8eb8e435814ea8ce9e87de",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "symfony/symfony": "3.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Darkkrye\\CacheClearToolbar\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Darkkrye",
+                    "email": "pierre.boudon.27@gmail.com"
+                }
+            ],
+            "description": "CacheClearToolbar is an addon to the Symfony Web Debug Toolbar.",
+            "time": "2016-11-22 11:49:43"
+        },
         {
             "name": "doctrine/annotations",
             "version": "v1.2.7",
@@ -2076,7 +2115,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "darkkrye/cache-clear-toolbar": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
